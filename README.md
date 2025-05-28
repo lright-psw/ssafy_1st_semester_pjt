@@ -5,6 +5,8 @@
 ![alt text](https://dh2zq2763s2kl.cloudfront.net/robot/img/Dobot-Magician-robot.png)
 
 ---
+![Static Badge](https://img.shields.io/badge/dobot-blue?style=flat&logo=ros&logoColor=white)<!-- dobot -->
+&nbsp;
 ![Static Badge](https://img.shields.io/badge/raspberrypi-%23A22846?style=flat&logo=raspberrypi&logoColor=white)<!-- 라즈베리파이 -->
 &nbsp;
 ![Static Badge](https://img.shields.io/badge/realsense-%230071C5?style=flat&logo=intel&logoColor=white)<!-- realsense -->
