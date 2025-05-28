@@ -3,7 +3,7 @@
 ![alt text](https://dh2zq2763s2kl.cloudfront.net/robot/img/Dobot-Magician-robot.png)
 
 ---
-### 사용한 기술 스택
+### ⚙ 사용한 기술 스택
 <br/>
 
 ![Static Badge](https://img.shields.io/badge/dobot-blue?style=flat&logo=ros&logoColor=white)<!-- dobot -->
