@@ -1,5 +1,5 @@
 ## 여는 말
-#### **본 프로젝트는 RoboDk를 이용한 디지털 트윈과Ros2를 활용한 Dobot/라즈베리파이 연동을 통해 실제 TV 생산 공정이 진행되는 과정을 구현하는 프로젝트입니다.**
+#### 🙆 본 프로젝트는 RoboDk를 이용한 디지털 트윈과Ros2를 활용한 Dobot/라즈베리파이 연동을 통해 실제 TV 생산 공정이 진행되는 과정을 구현하는 프로젝트입니다.
 ![alt text](https://dh2zq2763s2kl.cloudfront.net/robot/img/Dobot-Magician-robot.png)
 
 ---
@@ -39,7 +39,7 @@
 
 ---
 
-## 프로젝트 개요
+## 👋 프로젝트 개요
 ### 개발 동기
 최근 제조업계에서는 인력 부족, 생산 효율 저하, 품질 편차 등 다양한 문제에 직면하고 있습니다. 특히 단순 반복 작업이 많은 생산 공정에서 이러한 한계가 두드러지며, 이를 해결하기 위해서는 새로운 접근이 필요하다고 느꼈습니다.
 저희는 로봇과 인공지능 기술이 이런 문제를 효과적으로 개선할 수 있다고 생각했습니다. 따라서 수업이나 기사에서 자주 접하는 스마트 팩토리가 실제로 어떻게 적용되는지 직접 확인해 보고자 프로젝트를 기획하게 되었습니다.
@@ -79,4 +79,33 @@
 
 #### 웹(next.js) 
  - 1개에 서버가 아닌 3개에 서버에서 데이터를 보내게 되는데 각각에 서버에서 보낸 데이터를 가공하여 시각화해 사용자에게 보여줍니다.
+
+### 미들웨어
+미들웨어는 `ros2`로 구성되어있습니다.
+
+#### ros2
+ - ros2는 서버와 클라이언트(dobot)/yolo모델 사이에서 동작을 지원하거나 dobot의 joint와 같은 데이터를 중계하는 역할을 수행합니다.
+
+## 시연 영상
+[시연 영상](https://youtu.be/BOi_AOf3Yk0)
+
+1. 먼저 `https://github.com/lright-psw/ssafy_1st_semester_pjt.git`에서 파일을 받아온다.
+2. 연결할 라즈베리파이에 `ros2_ws/src/lecture/lecture/rp5_client.py`를 이동시킨다.
+3. `npm i ws`로 웹소켓을 다운 받는다.
+4. 서버를 구동시킬 컴퓨터에 접속해 `node.js`와 `python`을 다운한다
+5. 컴퓨터에 [roboDk](https://robodk.com/ko/)를 다운 받는다.
+6. robot-dashboard 폴더에 들어가 `Terminal` 혹은 `Powershell`을 키고 `npm i`를 입력한다.
+7. roboDK 폴더 내부 압축파일에 압축을 풀고 `TV_factory_sequence.rdk`를 실행시키고 내부 파이썬 파일을 실행시킨다.
+8. `realsense`와 `Dobot Magician`을 서버를 구동시킬 컴퓨터와 연결시킨다.
+9. [`ros2 humble`](https://docs.ros.org/en/humble/index.html)을 서버를 구동시킬 컴퓨터에 설치한다.
+10. ros2_ws로 이동하여 `colcon build`입력 후 `.bashrc`를 수정하고 `source ~/.bashrc`를 입력한다.
+11. SERVER, CLIENT, 라즈베리파이를 각각 실행시킨다.
+  - SERVER 실행 명령어
+    - 서버 구동 명령어 `ros2 run lecture main_prog`
+    - realsense/yolo 구동 명령어 `ros2 run lecture realsensewithYolov5`
+  - CLIENT 실행 명령어 `npm run dev`
+  - 라즈베리파이 실행 명령어 `python3 rp5_client.py`
+
+
+## connet Us
 
