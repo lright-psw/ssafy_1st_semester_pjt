@@ -4,6 +4,40 @@
 #### **본 프로젝트는 RoboDk를 이용한 디지털 트윈과Ros2를 활용한 Dobot/라즈베리파이 연동을 통해 실제 TV 생산 공정이 진행되는 과정을 구현하는 프로젝트입니다.**
 ![alt text](https://dh2zq2763s2kl.cloudfront.net/robot/img/Dobot-Magician-robot.png)
 
+---
+![Static Badge](https://img.shields.io/badge/raspberrypi-%23A22846?style=flat&logo=raspberrypi&logoColor=white)<!-- 라즈베리파이 -->
+&nbsp;
+![Static Badge](https://img.shields.io/badge/realsense-%230071C5?style=flat&logo=intel&logoColor=white)<!-- realsense -->
+&nbsp;
+![Static Badge](https://img.shields.io/badge/roboflow-%236706CE?style=flat&logo=roboflow&logoColor=white)<!-- roboflow -->
+
+
+
+![Static Badge](https://img.shields.io/badge/python-python?style=flat&logo=python&logoColor=FFFFFF&color=%233776AB)<!-- 파이썬 -->
+&nbsp;
+![Static Badge](https://img.shields.io/badge/html-html?style=flat&logo=html5&logoColor=FFFFFF&color=%23E34F26)<!-- HTML -->
+&nbsp;
+![Static Badge](https://img.shields.io/badge/css-css?style=flat&logo=css&logoColor=FFFFFF&color=%23663399)<!-- CSS -->
+&nbsp;
+![Static Badge](https://img.shields.io/badge/tailwindcss-%2306B6D4?style=flat&logo=tailwindcss&logoColor=white)<!-- tailwindcss -->
+&nbsp;
+![Static Badge](https://img.shields.io/badge/javascript-javascript?style=flat&logo=javascript&logoColor=%23F7DF1E&color=555555)<!-- 자바스크립트 -->
+
+![Static Badge](https://img.shields.io/badge/fastapi-%23009688?style=flat&logo=fastapi&logoColor=white)<!-- fastapi -->
+&nbsp;
+![Static Badge](https://img.shields.io/badge/flask-%23000000?style=flat&logo=flask&logoColor=white)<!-- flask -->
+&nbsp;
+![Static Badge](https://img.shields.io/badge/next.js-%23000000?style=flat&logo=nextdotjs&logoColor=white)<!-- next.js -->
+
+![Static Badge](https://img.shields.io/badge/ros2-%2322314E?style=flat&logo=ros&logoColor=white)<!-- ros2 -->
+&nbsp;
+![Static Badge](https://img.shields.io/badge/opencv-%235C3EE8?style=flat&logo=opencv&logoColor=white)<!-- opencv -->
+&nbsp;
+![Static Badge](https://img.shields.io/badge/yolo-%23111F68?style=flat&logo=yolo&logoColor=white)<!-- yolo -->
+
+
+---
+
 ## 프로젝트 개요
 ### 개발 동기
 최근 제조업계에서는 인력 부족, 생산 효율 저하, 품질 편차 등 다양한 문제에 직면하고 있습니다. 특히 단순 반복 작업이 많은 생산 공정에서 이러한 한계가 두드러지며, 이를 해결하기 위해서는 새로운 접근이 필요하다고 느꼈습니다.
