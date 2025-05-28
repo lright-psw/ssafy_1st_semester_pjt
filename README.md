@@ -3,6 +3,9 @@
 ![alt text](https://dh2zq2763s2kl.cloudfront.net/robot/img/Dobot-Magician-robot.png)
 
 ---
+### 사용한 기술 스택
+<br/>
+
 ![Static Badge](https://img.shields.io/badge/dobot-blue?style=flat&logo=ros&logoColor=white)<!-- dobot -->
 &nbsp;
 ![Static Badge](https://img.shields.io/badge/raspberrypi-%23A22846?style=flat&logo=raspberrypi&logoColor=white)<!-- 라즈베리파이 -->
@@ -10,7 +13,6 @@
 ![Static Badge](https://img.shields.io/badge/realsense-%230071C5?style=flat&logo=intel&logoColor=white)<!-- realsense -->
 &nbsp;
 ![Static Badge](https://img.shields.io/badge/roboflow-%236706CE?style=flat&logo=roboflow&logoColor=white)<!-- roboflow -->
-
 
 
 ![Static Badge](https://img.shields.io/badge/python-python?style=flat&logo=python&logoColor=FFFFFF&color=%233776AB)<!-- 파이썬 -->
@@ -54,23 +56,23 @@
 ### 서버
 서버는 `TCPSocket`, `WebSocket`, `Flask`, `fastapi`로 구성됩니다.
 
-#### ** TCPSocket **
+#### TCPSocket
  - TCP Socket은 roboDk와 라즈베리파이(컨베이어 벨트) 2개에 클라이언트에 재작성된 메세지를 송신하며 해당 내용을 통해 클라이언트들은 주어진 동작을 수행하게 됩니다.
 
-#### ** WebSocket **
+#### WebSocket
 - Dobot의 Joint값(총 4개)을 실시간으로 프론트로 전송하는 역할을 수행합니다. 
 
-#### ** Flask **
+#### Flask
 - `MJPEG`형식을 통해 realsense에서 YOLO를 통해 판넬을 감지하고 있는 실시간 영상을 압축하여 프론트에 전송하고 이를 압축 해제(Decompression)하여 웹 페이지에 보여줍니다.
 
-#### ** fastapi **
+#### fastapi
 - 작업이 총 6번 진행되는데 작업이 얼만큼 진행되었는지를 번호를 보내주는 역할을 수행합니다.
 
 ### 클라이언트
 클라이언트는  `Dobot/라즈베리파이(컨베이어벨트)`, `roboDk`, `웹(next.js)`로 구성됩니다.
 
-#### ** Dobot/라즈베리파이(컨베이어벨트) **
+#### Dobot/라즈베리파이(컨베이어벨트) 
 
-#### ** roboDk **
+#### roboDk 
 
-#### ** 웹(next.js) **
+#### 웹(next.js) 
