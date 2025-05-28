@@ -108,5 +108,7 @@
   - 라즈베리파이 실행 명령어 `python3 rp5_client.py`
 
 
-## 📞 connet Us
+## 📞 About Us
 
+[lright-psw](https://github.com/lright-psw)
+[7979eric](https://github.com/7979eric)
